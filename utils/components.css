@@ -1,0 +1,62 @@
+.mainTitle {
+  font-size: 42px;
+  color: #455A64;
+  max-width: 415px;
+  text-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.minorTitle {
+  color: #37474F;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.commonText {
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: #535359;
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+.button__transparent {
+  padding: 5px 15px;
+  border: 2px solid #FE9563;
+  border-radius: 6px;
+  margin-left: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.2s;
+}
+.button__transparent:hover {
+  transform: scale(1.2);
+}
+.button__transparent:active {
+  color: #afafaf;
+}
+
+.button__grey {
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 9px 25px 9px 25px;
+  background-color: #455A64;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.button__grey:hover {
+  transform: scale(1.2);
+}
+.button__grey:active {
+  color: #afafaf;
+}
+
+.delimiter {
+  border-left: 2px solid #FE9C69;
+  margin-right: 8px;
+  margin-left: 4px;
+  height: 8px;
+}/*# sourceMappingURL=components.css.map */

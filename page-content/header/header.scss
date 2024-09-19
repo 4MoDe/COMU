@@ -1,0 +1,53 @@
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7E6CC;
+    /* background: linear-gradient(#FFFBF0, #F7E6CC); */
+    height: 80px;
+    
+    &__logo{
+        display: flex;
+        margin-right: 120px;
+        align-items: center;
+
+        
+    }
+    &__logo-text{
+        font-family: 'Istok Web', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    &__navigation{
+        display: flex;
+        gap: 16px;
+    
+        &__link{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    
+        &__link::after{
+            content: "";
+            width: 0px;
+            height: 0px;
+            border-top: 6px solid #FE9563;
+            border-left: 3px solid transparent;
+            border-right: 3px solid transparent;
+        }
+    
+        & a{
+            text-decoration: none;
+            color: black;
+            line-height: 21px;
+            font-size: 14px;
+        }
+    }
+}
+

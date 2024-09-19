@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7E6CC;
+  /* background: linear-gradient(#FFFBF0, #F7E6CC); */
+  height: 80px;
+}
+.header__logo {
+  display: flex;
+  margin-right: 120px;
+  align-items: center;
+}
+.header__logo-text {
+  font-family: "Istok Web", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+}
+.header__navigation {
+  display: flex;
+  gap: 16px;
+}
+.header__navigation__link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header__navigation__link::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 6px solid #FE9563;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+.header__navigation a {
+  text-decoration: none;
+  color: black;
+  line-height: 21px;
+  font-size: 14px;
+}/*# sourceMappingURL=header.css.map */

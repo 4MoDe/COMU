@@ -1,0 +1,58 @@
+@import '../page-content/page-content.css';
+@import '../page-content/header/header.css';
+@import '../page-content/home/home.css';
+@import '../page-content/card/card.css';
+@import '../page-content/share/share.css';
+@import '../page-content/capabilities/capabalities.css';
+@import '../page-content/security/security.css';
+html * {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: Poppins;
+}
+
+body {
+  margin: 0;
+  background-color: #fffcf5;
+}
+
+@media screen and (max-width: 900px) {
+  .home {
+    padding: 0 10px;
+  }
+  .card {
+    gap: 20px;
+  }
+  .share__text {
+    margin-left: 30px;
+  }
+  .capabilities {
+    padding: 0px 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home__title {
+    font-size: 30px;
+  }
+  .home__text {
+    font-size: 12px;
+  }
+  .card {
+    flex-wrap: wrap;
+  }
+  .share__img {
+    display: none;
+  }
+  .capabilities__img {
+    display: none;
+  }
+  .capabilities__list {
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home__img {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

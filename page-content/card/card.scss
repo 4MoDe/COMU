@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 62px;
+    margin-top: 120px;
+
+    &__content{
+        max-width: 360px;
+        padding: 36px;
+        text-align: center;
+        border-radius: 44px;
+        background: linear-gradient(#F5F2EB, #F7E6CB);
+        box-shadow: 5px 5px 13px #DD8762;
+
+        & .miniImg {
+            height: 76px;
+            width: 76px;
+        }
+    }
+}
+

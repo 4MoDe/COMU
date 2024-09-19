@@ -1,0 +1,79 @@
+//@import '../utils/components';
+@import '../page-content/page-content.css';
+@import '../page-content/header/header.css';
+@import '../page-content/home/home.css';
+@import '../page-content/card/card.css';
+@import '../page-content/share/share.css';
+@import '../page-content/capabilities/capabalities.css';
+@import '../page-content/security/security.css';
+
+html *{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: Poppins;
+}
+body{
+    margin: 0;
+    background-color: #fffcf5;
+}
+
+@media screen and (max-width: 900px) {
+    .home{
+        padding: 0 10px;
+    }
+    .card{
+        gap: 20px
+    }
+    .share{
+        &__text{
+            margin-left: 30px;
+        }
+    }
+    .capabilities{
+        padding: 0px 35px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .home{
+        &__title{
+            font-size: 30px;
+        }
+
+        &__text{
+            font-size: 12px;
+        }
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .share{
+        &__img{
+            display: none;
+        }
+    }
+
+    .capabilities{
+        &__img{
+            display: none;
+        }
+
+        &__list{
+            padding: 20px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home{
+        &__img{
+            display: none;
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,22 @@
+.home {
+  display: flex;
+  margin-top: 80px;
+  max-height: 800px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/headerBack.png");
+  background-color: #F7E6CC;
+  box-shadow: 0 5px 26px #DD8762;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.home__info .addInfo {
+  font-size: 14px;
+  line-height: 24px;
+  color: #455A64;
+  margin: 20px;
+}
+.home__img {
+  max-width: 100%;
+  max-height: 100%;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,13 @@
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.share__text {
+  margin-left: 80px;
+}
+.share__img {
+  width: 50%;
+  height: auto;
+}/*# sourceMappingURL=share.css.map */
