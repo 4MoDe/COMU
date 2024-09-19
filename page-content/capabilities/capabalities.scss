@@ -11,6 +11,7 @@
     background: linear-gradient(#F5F2EB, #F7E6CB);
 
     &__list{
+        max-width: 450px;
         list-style: none;
         padding: 100px 0;
     }

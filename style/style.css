@@ -1,3 +1,4 @@
+@import '../utils/components.css';
 @import '../page-content/page-content.css';
 @import '../page-content/header/header.css';
 @import '../page-content/home/home.css';
@@ -18,6 +19,9 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+  .page-item {
+    margin-top: 60px;
+  }
   .home {
     padding: 0 10px;
   }
@@ -29,6 +33,9 @@ body {
   }
   .capabilities {
     padding: 0px 35px;
+  }
+  .security__content {
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -49,6 +56,10 @@ body {
   }
   .capabilities__list {
     padding: 20px 0;
+  }
+  .security__img {
+    gap: 0;
+    display: none;
   }
 }
 @media screen and (max-width: 400px) {

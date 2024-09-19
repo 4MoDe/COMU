@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="utils/components.css">
+    <!-- <link rel="stylesheet" href="utils/components.css"> -->
     <link rel="stylesheet" href="style/style.css">
     <link href='https://fonts.googleapis.com/css?family=Istok Web' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <title>COMU</title>
 </head>
 <body>
@@ -42,7 +43,7 @@
     </section >
 
     <section class="page-content">
-        <div class="card">
+        <div class="card page-item">
             <div class="card__content">
                 <img src="images/lamp.png" alt="" class="miniImg">
                 <p class="minorTitle">Quick Access</p>
@@ -60,7 +61,7 @@
             </div>
         </div>
 
-        <div class="share">
+        <div class="share page-item">
             <img class="share__img" src="images/share.png" alt="">
             <div class="share__text">
                 <h1 class="mainTitle">Share files, media, and locations</h1>
@@ -69,7 +70,7 @@
             </div>
         </div>
 
-        <div class="capabilities">
+        <div class="capabilities page-item">
             <ul class="capabilities__list">
                 <li class="capabilities__item">
                     <img src="images/message.png" alt="" class="capabilities__mini-img">
@@ -90,24 +91,25 @@
             <div><img src="images/like.png" alt="" class="capabilities__img"></div>
         </div>
 
-        <div class="security">
+        <div class="security page-item">
             <div class="security__title">
-                <h1 class="mainTitle">Security, Simplicity, Easiness</h1>
-                <p class="commonText">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</p>
+                <h1 class="mainTitle security__main-title">Security, Simplicity, Easiness</h1>
+                <p class="commonText security__common-text">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</p>
             </div>
-            <div class="security__text">
-                <img src="images/security.png" alt="security">
-                <div class="security__text-1">
-                    <h1 class="mainTitle">Chat with your friends easily</h1>
-                    <p class="commonText">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a sapien</p>
-                    <h1 class="mainTitle">Advanced performance made easy</h1>
-                    <p class="commonText">Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus and quaerat</p>
-                    <p class="commonText">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus</p>
+            <div class="security__content">
+                <div><img class="security__img" src="images/security.png" alt="security"></div>
+                <div class="security__text">
+                    <h1 class="minorTitle security__minor-title">Chat with your friends easily</h1>
+                    <p class="commonText security__common-text">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and turpis dolores aliquam quaerat sodales a sapien</p>
+                    <h1 class="minorTitle security__minor-title">Advanced performance made easy</h1>
+                    <p class="commonText security__common-text">Fringilla risus, luctus mauris auctor euismod an iaculis luctus magna purus pretium ligula purus and quaerat</p>
+                    <p class="commonText security__common-text">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat at sodales sapien purus</p>
+                    <div class="security__buttons">
+                        <button class="button__grey">App Store</button>
+                        <button class="button__grey">Goggle Play</button>
+                    </div>
                 </div>
-                <div class="security__buttons">
-                    <button class="button__grey">App Store</button>
-                    <button class="button__grey">Goggle Play</button>
-                </div>
+                
             </div>
         </div>
     </section>

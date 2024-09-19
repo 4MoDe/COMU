@@ -5,11 +5,12 @@
     margin-top: 120px;
 
     &__text{
+        max-width: 450px;
         margin-left: 80px;
     }
 
     &__img{
-        width: 50%;
+        max-width: 50%;
         height: auto;
     }
 }

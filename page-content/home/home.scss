@@ -10,9 +10,9 @@
     border-bottom-right-radius: 10%; 
     border-bottom-left-radius: 10%; 
 
-    &__info .addInfo{
+    &__info, .addInfo{
+        max-width: 450px;
         font-size: 14px;
-        line-height: 24px;
         color: #455A64;
         margin: 20px;
     }

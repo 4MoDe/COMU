@@ -1,4 +1,4 @@
-//@import '../utils/components';
+@import '../utils/components.css';
 @import '../page-content/page-content.css';
 @import '../page-content/header/header.css';
 @import '../page-content/home/home.css';
@@ -6,6 +6,7 @@
 @import '../page-content/share/share.css';
 @import '../page-content/capabilities/capabalities.css';
 @import '../page-content/security/security.css';
+
 
 html *{
     /* border: 1px solid red; */
@@ -19,19 +20,30 @@ body{
 }
 
 @media screen and (max-width: 900px) {
+    .page-item{
+        margin-top: 60px;
+    }
+
     .home{
         padding: 0 10px;
     }
+
     .card{
         gap: 20px
     }
+
     .share{
         &__text{
             margin-left: 30px;
         }
     }
+
     .capabilities{
         padding: 0px 35px;
+    }
+
+    .security__content{
+        margin-top: 60px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -63,6 +75,11 @@ body{
         &__list{
             padding: 20px 0;
         }
+    }
+
+    .security__img{
+        gap: 0;
+        display: none;
     }
 }
 

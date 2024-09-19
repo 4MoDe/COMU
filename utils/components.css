@@ -1,9 +1,8 @@
 .mainTitle {
+  margin: 0;
   font-size: 42px;
   color: #455A64;
-  max-width: 415px;
   text-wrap: wrap;
-  margin-bottom: 20px;
 }
 
 .minorTitle {
@@ -14,12 +13,10 @@
 }
 
 .commonText {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
   color: #535359;
-  max-width: 450px;
-  margin-bottom: 20px;
 }
 
 .button__transparent {
