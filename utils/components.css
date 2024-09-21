@@ -1,25 +1,27 @@
-.mainTitle {
+.main-title {
   margin: 0;
   font-size: 42px;
   color: #455A64;
   text-wrap: wrap;
 }
 
-.minorTitle {
+.minor-title {
+  margin-top: 20px;
   color: #37474F;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
 
-.commonText {
+.common-text {
+  margin-top: 10px;
   font-weight: 500;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
   color: #535359;
 }
 
-.button__transparent {
+.button-transparent {
   padding: 5px 15px;
   border: 2px solid #FE9563;
   border-radius: 6px;
@@ -28,26 +30,26 @@
   background-color: transparent;
   transition: 0.2s;
 }
-.button__transparent:hover {
+.button-transparent:hover {
   transform: scale(1.2);
 }
-.button__transparent:active {
+.button-transparent:active {
   color: #afafaf;
 }
 
-.button__grey {
+.button-grey {
   border: none;
   border-radius: 6px;
   color: #ffffff;
-  padding: 9px 25px 9px 25px;
+  padding: 9px 25px;
   background-color: #455A64;
   cursor: pointer;
   transition: 0.2s;
 }
-.button__grey:hover {
+.button-grey:hover {
   transform: scale(1.2);
 }
-.button__grey:active {
+.button-grey:active {
   color: #afafaf;
 }
 
@@ -56,4 +58,10 @@
   margin-right: 8px;
   margin-left: 4px;
   height: 8px;
+}
+
+.absolute-img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=components.css.map */

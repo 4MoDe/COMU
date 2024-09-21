@@ -19,13 +19,6 @@
   position: relative;
   padding-left: 65px;
 }
-.capabilities__mini-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 57px;
-  height: 57px;
-}
 .capabilities__img {
   max-width: 100%;
 }/*# sourceMappingURL=capabalities.css.map */

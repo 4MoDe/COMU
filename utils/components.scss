@@ -1,4 +1,4 @@
-.mainTitle{
+.main-title{
     margin: 0;
     font-size: 42px;
     //line-height: 53px;
@@ -8,24 +8,22 @@
     //margin-bottom: 20px;
 }
 
-.minorTitle{
-    //line-height: 26px;
+.minor-title{
+    margin-top: 20px;
     color: #37474F;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 17px;
 }
 
-.commonText{
+.common-text{
+    margin-top: 10px;
     font-weight: 500;
     font-size: 17px;
     font-family: "Poppins", sans-serif;
-    //line-height: 25px;
     color: #535359;
-    //max-width: 450px;
-    //margin-bottom: 20px;
 }
-.button__transparent{
+.button-transparent{
     padding: 5px 15px;
     border: 2px solid #FE9563;
     border-radius: 6px;
@@ -43,11 +41,11 @@
     }
 }
 
-.button__grey{
+.button-grey{
     border: none;
     border-radius: 6px;
     color:#ffffff;
-    padding: 9px 25px 9px 25px;
+    padding: 9px 25px;
     background-color: #455A64;
     //margin-top: 20px;
     cursor: pointer;
@@ -67,4 +65,12 @@
     margin-right: 8px;
     margin-left: 4px;
     height: 8px;
+}
+
+.absolute-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    // width: 57px;
+    // height: 57px;
 }

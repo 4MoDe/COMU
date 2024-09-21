@@ -1,4 +1,5 @@
 @import '../utils/components.css';
+@import '../utils/reset.css';
 @import '../page-content/page-content.css';
 @import '../page-content/header/header.css';
 @import '../page-content/home/home.css';
@@ -6,11 +7,11 @@
 @import '../page-content/share/share.css';
 @import '../page-content/capabilities/capabalities.css';
 @import '../page-content/security/security.css';
-
+@import '../page-content/work/work.css';
 
 html *{
     /* border: 1px solid red; */
-    box-sizing: border-box;
+    //box-sizing: border-box;
     font-weight: 700;
     font-family: Poppins;
 }
@@ -47,14 +48,8 @@ body{
     }
 }
 @media screen and (max-width: 600px) {
-    .home{
-        &__title{
-            font-size: 30px;
-        }
-
-        &__text{
-            font-size: 12px;
-        }
+    .main-title{
+        font-size: 35px;
     }
 
     .card{
@@ -62,6 +57,9 @@ body{
     }
 
     .share{
+        &__text{
+            margin-left: 0;
+        }
         &__img{
             display: none;
         }
@@ -76,14 +74,29 @@ body{
             padding: 20px 0;
         }
     }
+    .security{
+        &__text{
+            margin-left: 0;
+        }
 
-    .security__img{
-        gap: 0;
-        display: none;
+        &__img{
+            display: none;
+        }
+    }
+
+    .work{
+        &__img{
+            display: none;
+        }
     }
 }
+    
 
 @media screen and (max-width: 400px) {
+    .main-title{
+        font-size: 24px;
+    }
+    
     .home{
         &__img{
             display: none;
