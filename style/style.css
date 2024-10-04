@@ -40,6 +40,9 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
+  .menu {
+    display: block;
+  }
   .main-title {
     font-size: 35px;
   }
