@@ -1,0 +1,21 @@
+.quick-commands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+    &__text{
+        max-width: 450px;
+        margin-left: 80px;
+    }
+
+    &__img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__buttons{
+        margin-top: 10px;
+    }
+}

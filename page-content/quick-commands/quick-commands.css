@@ -1,0 +1,17 @@
+.quick-commands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.quick-commands__text {
+  max-width: 450px;
+  margin-left: 80px;
+}
+.quick-commands__img {
+  max-width: 100%;
+  height: auto;
+}
+.quick-commands__buttons {
+  margin-top: 10px;
+}/*# sourceMappingURL=quick-commands.css.map */

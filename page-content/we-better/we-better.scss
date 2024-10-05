@@ -1,0 +1,17 @@
+.we-better{
+    margin-top: 60px;
+
+    &__title{
+        max-width: 630px;
+        margin: auto;
+        text-align: center;
+    }
+    &__main-title{
+        color: #000000;
+    }
+    
+    &__text{
+        max-width: 450px;
+        margin-left: 80px;
+    }
+}
