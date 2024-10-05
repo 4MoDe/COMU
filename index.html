@@ -13,35 +13,36 @@
 </head>
 <body>
     <header class="header">
-            <div class="header__logo">
-                <img src="images/logo.png" alt="">
-                <span class="header__logo-text">COMU</span>
-            </div>
+        <div class="menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__button" for="menu__toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu__list">
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Home</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">About</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Auth pages</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Features</a></li>
+                <li class="menu__list-item"><a href="#" class="menu__list-link">Pricing</a></li>
+            </ul>
+        </div>
 
-            <div class="menu">
-                <label class="menu__button" for="menu__toggle">
-                    <input id="menu__toggle" type="checkbox">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul class="menu__box">
-                        <li class="menu__box-item"><a href="#">Home</a></li>
-                        <li class="menu__box-item"><a href="#">About</a></li>
-                        <li class="menu__box-item"><a href="#">Info</a></li>
-                        <li class="menu__box-item"><a href="#">Contact</a></li>
-                    </ul>
-                </label>
-            </div>
+        <div class="header__logo">
+            <img src="images/logo.png" alt="">
+            <span class="header__logo-text">COMU</span>
+        </div>
 
-            <nav class="header__navigation">
-                <a href="#" class="navigation__link">Home</a>
-                <a href="#" class="navigation__link">About</a>
-                <a href="#" class="navigation__link">Auth pages</a>
-                <a href="#" class="navigation__link">Features</a>
-                <a href="#" class="navigation__link">Pricing</a>
-            </nav>
+        <nav class="header__navigation">
+            <a href="#" class="header__navigation-link">Home</a>
+            <a href="#" class="header__navigation-link">About</a>
+            <a href="#" class="header__navigation-link">Auth pages</a>
+            <a href="#" class="header__navigation-link">Features</a>
+            <a href="#" class="header__navigation-link">Pricing</a>
+        </nav>
 
-            <button class="button-transparent">Get started</button>
+        <button class="button-transparent">Get started</button>
     </header>
     <section class="home">
         <div class="home__info">

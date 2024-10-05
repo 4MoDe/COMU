@@ -41,7 +41,8 @@ body {
 }
 @media screen and (max-width: 600px) {
   .menu {
-    display: block;
+    display: flex;
+    align-self: flex-start;
   }
   .main-title {
     font-size: 35px;
