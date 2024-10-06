@@ -10,6 +10,13 @@
 @import '../page-content/work/work.css';
 @import '../page-content/quick-commands/quick-commands.css';
 @import '../page-content/we-better/we-better.css';
+@import '../page-content/share2/share2.css';
+@import '../page-content/stories/stories.css';
+@import '../page-content/no-collections/no-collections.css';
+@import '../page-content/discover/discover.css';
+@import '../page-content/FAQ/FAQ.css';
+@import '../page-content/unlimited/unlimited.css';
+@import '../page-content//footer/footer.css';
 html * {
   /* border: 1px solid red; */
   font-weight: 700;

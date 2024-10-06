@@ -1,0 +1,22 @@
+.FAQ {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.FAQ__title {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.FAQ__content {
+  display: flex;
+  gap: 60px;
+}
+.FAQ h1, .FAQ h2, .FAQ p {
+  color: #000;
+}
+.FAQ h2 {
+  font-size: 18px;
+}
+.FAQ p {
+  font-size: 16px;
+}/*# sourceMappingURL=FAQ.css.map */

@@ -1,0 +1,14 @@
+.stories{
+    flex-direction: column;
+    padding: 50px;
+
+    &__title{
+        max-width: 630px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    &__main-title,  &__common-text{
+        color: #000;
+    }
+}

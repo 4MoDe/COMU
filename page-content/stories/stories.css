@@ -1,0 +1,12 @@
+.stories {
+  flex-direction: column;
+  padding: 50px;
+}
+.stories__title {
+  max-width: 630px;
+  margin: auto;
+  text-align: center;
+}
+.stories__main-title, .stories__common-text {
+  color: #000;
+}/*# sourceMappingURL=stories.css.map */

@@ -1,0 +1,18 @@
+.no-collections {
+  margin-top: 100px;
+}
+.no-collections__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+.no-collections__text {
+  max-width: 450px;
+}
+.no-collections__main-title, .no-collections__minor-title, .no-collections__common-text {
+  color: #000000;
+}
+.no-collections__buttons {
+  margin-top: 20px;
+}/*# sourceMappingURL=no-collections.css.map */

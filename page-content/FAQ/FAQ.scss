@@ -1,0 +1,26 @@
+.FAQ{
+    max-width: 860px;
+    margin: 0 auto;
+
+    &__title{
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+
+    &__content{
+        display: flex;
+        gap: 60px;
+    }
+
+    & h1, h2, p{
+        color: #000;
+    }
+
+    & h2{
+        font-size: 18px;
+    }
+    & p{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,28 @@
+.share2 {
+  margin-top: 60px;
+}
+.share2__title {
+  max-width: 630px;
+  margin: auto;
+  text-align: center;
+}
+.share2__main-title, .share2__common-text {
+  color: #000;
+}
+.share2__img {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.share2__img-abs {
+  position: absolute;
+  height: auto;
+  max-width: 780px;
+}
+.share2__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -30px;
+}/*# sourceMappingURL=share2.css.map */

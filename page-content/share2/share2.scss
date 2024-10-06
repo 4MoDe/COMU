@@ -1,0 +1,33 @@
+.share2{
+    margin-top: 60px;
+
+    &__title{
+        max-width: 630px;
+        margin: auto;
+        text-align: center;
+    }
+
+    &__main-title, &__common-text{
+        color: #000;
+    }
+
+    &__img{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+
+        &-abs{
+            position: absolute;
+            height: auto;
+            max-width: 780px;
+        }
+    }
+
+    &__button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: -30px;
+    }
+}

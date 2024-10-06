@@ -1,11 +1,10 @@
 .main-title{
-    margin: 0;
+    max-width: fit-content;
+    margin: auto;
     font-size: 42px;
-    //line-height: 53px;
     color: #455A64;
-    //max-width: 415px;
+    font-family: "Poppins", sans-serif;
     text-wrap: wrap;
-    //margin-bottom: 20px;
 }
 
 .minor-title{
@@ -81,6 +80,20 @@
     }
 }
 
+.button-black{
+    &:hover{
+        transition: 0.2s;
+        transform: scale(0.9);
+    }
+}
+
+.button-white{
+    &:hover{
+        transition: 0.2s;
+        transform: scale(0.9);
+    }
+}
+
 .delimiter{
     border-left: 2px solid #FE9C69;
     margin-right: 8px;
@@ -95,6 +108,27 @@
 }
 
 .big-pic{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.square{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 115px 80px;
+    max-width: 1200px;
+    margin-top: 120px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 30px #DD8762;
+    background: linear-gradient(#F5F2EB, #F7E6CB);
+}
+
+@mixin title($color: #37474F, $font-size: 42px, $max-width: 630px) {
+    margin: auto;
+    font-size: $font-size;
+    color: $color;
+    text-wrap: wrap;
+    max-width: $max-width;
 }

@@ -1,0 +1,37 @@
+.footer{
+    &__content{
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: 330px repeat(4, 1fr);
+        margin: 0 auto;
+        max-width: 1024px;
+        padding: 70px 20px 40px;
+    }
+
+    &__section-header{
+        margin: 0;
+        color: #000;
+    }
+
+    &__link{
+        font-weight: 400;
+    }
+
+    &__buttons{
+        margin-top: 10px;
+    }
+
+    &-bottom{
+        background: linear-gradient(90.14deg, #F7E6CB 0%, #F5F2EA 99.44%);
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &__links{
+            display: grid;
+            grid-template-columns: repeat(6, 26px);
+            grid-gap: 18px;
+        }
+    }
+}

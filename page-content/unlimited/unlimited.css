@@ -1,0 +1,15 @@
+.unlimited {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.unlimited__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+.unlimited h1, .unlimited p {
+  color: #000;
+}/*# sourceMappingURL=unlimited.css.map */

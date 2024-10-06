@@ -12,7 +12,6 @@
 }
 .header__logo {
   display: flex;
-  margin-right: 120px;
   align-items: center;
 }
 .header__logo-text {

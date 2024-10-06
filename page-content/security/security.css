@@ -8,25 +8,16 @@
 }
 .security__content {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 100px;
 }
 .security__text {
   max-width: 450px;
-  margin-left: 80px;
-}
-.security__img {
-  max-width: 100%;
-  height: auto;
 }
 .security__minor-title {
   font-size: 19px;
 }
 .security__main-title, .security__minor-title, .security__common-text {
   color: #000000;
-}
-.security__buttons__appStore, .security__buttons__googlePlay {
-  background-color: transparent;
-  padding: 0;
 }/*# sourceMappingURL=security.css.map */

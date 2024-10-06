@@ -1,11 +1,5 @@
-.security{
+.no-collections{
     margin-top: 100px;
-
-    &__title{
-        max-width: 630px;
-        margin: auto;
-        text-align: center;
-    }
 
     &__content{
         display: flex;
@@ -18,12 +12,11 @@
         max-width: 450px;
     }
     
-    &__minor-title{
-        font-size: 19px;
-    }
-    
     &__main-title, &__minor-title, &__common-text{
         color: #000000;
     }
-}
 
+    &__buttons{
+        margin-top: 20px;
+    }
+}

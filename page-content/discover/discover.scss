@@ -1,0 +1,41 @@
+@import '../../utils/components.scss';
+
+.title{
+    @include title($color: #000);
+}
+.discover{
+    margin: 60px;
+
+    &__title{
+        margin: auto;
+        text-align: center;
+    }
+
+    &__square{
+        margin-top: 0;
+    }
+
+    &__content{
+        display: flex;
+        gap: 100px;
+
+        &__title{
+            max-width: 500px;
+            font-size: 32px;
+        }
+
+        &__bigNum{
+            font-size: 54px;
+        }
+
+        &__common-text{
+            color: #000;
+            max-width: 160px;
+            margin-top: 0;
+        }
+
+        &__stars{
+            max-height: 16px;
+        }
+    }
+}

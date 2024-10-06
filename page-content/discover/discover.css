@@ -1,10 +1,6 @@
 .main-title {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  margin: auto;
   font-size: 42px;
   color: #455A64;
-  font-family: "Poppins", sans-serif;
   text-wrap: wrap;
 }
 
@@ -77,11 +73,7 @@
 .button-black:hover {
   transition: 0.2s;
   transform: scale(0.9);
-}
-
-.button-white:hover {
-  transition: 0.2s;
-  transform: scale(0.9);
+  background-color: #fd8045;
 }
 
 .delimiter {
@@ -98,6 +90,8 @@
 }
 
 .big-pic {
+  max-width: 500px;
+  max-height: 500px;
   max-width: 100%;
   height: auto;
 }
@@ -113,4 +107,42 @@
   border-radius: 50px;
   box-shadow: 5px 5px 30px #DD8762;
   background: linear-gradient(#F5F2EB, #F7E6CB);
-}/*# sourceMappingURL=components.css.map */
+}
+
+.title {
+  margin: auto;
+  font-size: 42px;
+  color: #000;
+  text-wrap: wrap;
+  max-width: 630px;
+}
+
+.discover {
+  margin: 60px;
+}
+.discover__title {
+  margin: auto;
+  text-align: center;
+}
+.discover__square {
+  margin-top: 0;
+}
+.discover__content {
+  display: flex;
+  gap: 100px;
+}
+.discover__content__title {
+  max-width: 500px;
+  font-size: 32px;
+}
+.discover__content__bigNum {
+  font-size: 54px;
+}
+.discover__content__common-text {
+  color: #000;
+  max-width: 160px;
+  margin-top: 0;
+}
+.discover__content__stars {
+  max-height: 16px;
+}/*# sourceMappingURL=discover.css.map */
