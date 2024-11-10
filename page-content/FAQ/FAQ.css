@@ -3,11 +3,10 @@
   margin: 0 auto;
 }
 .FAQ__title {
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
+  max-width: 630px;
 }
 .FAQ__content {
+  margin-top: 30px;
   display: flex;
   gap: 60px;
 }

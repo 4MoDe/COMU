@@ -1,6 +1,6 @@
 .main-title{
-    max-width: fit-content;
-    margin: auto;
+    //max-width: fit-content;
+    margin: 20px 0;
     font-size: 42px;
     color: #455A64;
     font-family: "Poppins", sans-serif;
@@ -16,12 +16,18 @@
 }
 
 .common-text{
-    margin-top: 10px;
+    margin: 10px 0;
     font-weight: 500;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     color: #535359;
 }
+
+.centred-text{
+    text-align: center;
+    margin: 0 auto;
+}
+
 .button-transparent{
     padding: 5px 15px;
     border: 2px solid #FE9563;
@@ -117,18 +123,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 30px;
     padding: 115px 80px;
     max-width: 1200px;
-    margin-top: 120px;
+    margin-top: 60px;
     border-radius: 50px;
     box-shadow: 5px 5px 30px #DD8762;
     background: linear-gradient(#F5F2EB, #F7E6CB);
 }
 
-@mixin title($color: #37474F, $font-size: 42px, $max-width: 630px) {
+.square-transparent{
     margin: auto;
-    font-size: $font-size;
-    color: $color;
-    text-wrap: wrap;
-    max-width: $max-width;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 115px 80px;
+    max-width: 1200px;
+    margin-top: 60px;
+    border-radius: 50px;
+    box-shadow: 0;
+    background: transparent;
 }
+
+

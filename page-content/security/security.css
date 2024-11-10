@@ -2,9 +2,17 @@
   margin-top: 100px;
 }
 .security__title {
-  max-width: 630px;
   margin: auto;
   text-align: center;
+  max-width: 630px;
+}
+.security__title h1 {
+  font-size: 42px;
+  color: #455A64;
+}
+.security__title p {
+  font-size: 14px;
+  color: #535359;
 }
 .security__content {
   display: flex;

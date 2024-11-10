@@ -1,0 +1,13 @@
+@mixin main-title($color1: #455A64, $color2: #535359, $title__font-size: 42px, $text__font-size: 14px, $max-width: 630px) {
+    margin: auto;
+    text-align: center;
+    max-width: $max-width;
+    h1{
+        font-size: $title__font-size;
+        color: $color1;
+    }
+    p{
+        font-size: $text__font-size;
+        color: $color2;
+    }
+}

@@ -1,10 +1,10 @@
+@import '../../utils/variables';
+
 .security{
     margin-top: 100px;
 
     &__title{
-        max-width: 630px;
-        margin: auto;
-        text-align: center;
+        @include main-title;
     }
 
     &__content{
