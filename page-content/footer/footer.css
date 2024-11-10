@@ -1,10 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 70px 20px 40px;
+}
+.footer__text {
+  max-width: 300px;
+}
 .footer__content {
   display: grid;
   grid-column-gap: 20px;
-  grid-template-columns: 330px repeat(4, 1fr);
-  margin: 0 auto;
-  max-width: 1024px;
-  padding: 70px 20px 40px;
+  grid-template-columns: repeat(4, 0.7fr);
 }
 .footer__section-header {
   margin: 0;
