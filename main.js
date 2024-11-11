@@ -1,14 +1,17 @@
-isSectionVisible((section) => {
-    const rect = section.getBoundingClientRect();
-    return( rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight));
-})
+let isSectionVisible = (section) => {
+    let rect = section.getBoundingClientRect();
+    let height = window.innerHeight
+    return( rect.top <= height - height*0.1 && rect.bottom >= height - height*0.2);
+}
 
-const sections = document.querySelectorAll('section')
+const sections = document.querySelectorAll('body>section')
 
 window.addEventListener('scroll', () => {
     sections.forEach((section) => {
-        if (isSectionVisible(section)){
-            console.log(section.className)
-        }
+        const nav = document.querySelector(`nav.header__navigation>a[href="#${section.className}"]`);
+        if (isSectionVisible(section))
+            nav.classList.add('highlight');
+        else
+            nav.classList.remove('highlight')
     })
 })
