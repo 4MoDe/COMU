@@ -1,12 +1,12 @@
 let isSectionVisible = (section) => {
     let rect = section.getBoundingClientRect();
     let height = window.innerHeight
-    return( rect.top <= height - height*0.1 && rect.bottom >= height - height*0.2);
+    return( rect.top <= height - height*0.5 && rect.bottom >= height - height*0.5);
 }
 
 const sections = document.querySelectorAll('body>section')
 
-window.addEventListener('scroll', () => {
+let highlight = () => {
     sections.forEach((section) => {
         const nav = document.querySelector(`nav.header__navigation>a[href="#${section.className}"]`);
         if (isSectionVisible(section))
@@ -14,4 +14,8 @@ window.addEventListener('scroll', () => {
         else
             nav.classList.remove('highlight')
     })
-})
+}
+
+window.addEventListener('load',  highlight)
+window.addEventListener('scroll', highlight)
+
